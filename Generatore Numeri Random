@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main()
+{
+	int numeridagen,cont=0,random;
+	printf("Quanti numeri casuali vuoi generare?:");
+	scanf("%d",&numeridagen);
+	srand(time(NULL));
+	while(cont<numeridagen)
+	{
+		random=(rand()%100)+1;
+		printf("\n\n%d",random);
+		cont++;
+		
+	}
+}
