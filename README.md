@@ -1,2 +1,1 @@
-# Programmi-in-C
-Miei personali programmi in C
+Programmi in C.
